@@ -5,8 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Git",
+		"GitGutter",
+		"Markdown Preview",
 		"Material Theme",
 		"Package Control",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"Terminal",
 		"Vintageous"
 	]
 }
