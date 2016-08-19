@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
-		"VIM Navigation"
+		"Package Control",
+		"Vintageous"
 	]
 }
