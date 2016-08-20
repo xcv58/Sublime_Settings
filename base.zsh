@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/usr/bin/env zsh
 usage() {
     echo "link_dir should follow two arguments:"
     echo "1. the shell script file path"
@@ -36,3 +36,22 @@ link_dir() {
     echo ${link_command}
     eval ${link_command}
 }
+
+deploy_base() {
+    local ORIGIN="./base.zsh"
+    for target in `find . -name "base.zsh"`
+    do
+        if [[ ${ORIGIN} == ${target} ]]; then
+            echo "skip myself: ${ORIGIN}"
+        else
+            command="cp \"${ORIGIN}\" \"${target}\""
+            echo ${command}
+            eval ${command}
+        fi
+    done
+}
+
+if [[ $@ == "deploy" ]]; then
+    echo "deploy ./base.zsh"
+    deploy_base
+fi
