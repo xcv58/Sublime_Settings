@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"auto-save",
 		"Emmet",
 		"Git",
 		"GitGutter",
