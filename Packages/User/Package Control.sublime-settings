@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"auto-save",
+		"Babel",
 		"Emmet",
 		"Git",
 		"GitGutter",
@@ -13,6 +14,7 @@
 		"MarkdownHighlighting",
 		"Material Theme",
 		"Package Control",
+		"ReactJS",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"Terminal",
