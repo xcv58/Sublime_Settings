@@ -6,6 +6,7 @@
 	"ignored_packages":
 	[
 	],
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".sass-cache", "node_modules"],
 	"line_padding_bottom": 4,
 	"line_padding_top": 4,
 	"material_theme_contrast_mode": true,
